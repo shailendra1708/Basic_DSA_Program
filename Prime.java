@@ -2,6 +2,9 @@
    1<-t<-10000
    2<-t<10^9 */
 
+/*  Calculate sqrt(89) ≈ 9.43, so you check divisors from 2 to 9.
+ Since 89 isn't divisible by any number between 2 and 9, 89 is a prime number. */
+
 import java.util.Scanner;
 
 public class Prime {
@@ -16,7 +19,7 @@ public class Prime {
             int n = sc.nextInt();
 
             int count = 0;
-            for (int div = 2 ; div * div <= n; div++) {
+            for (int div = 2; div * div <= n; div++) {
                 if (n % div == 0) {
                     count++;
                     break;
