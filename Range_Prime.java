@@ -28,5 +28,6 @@ public class Range_Prime {
 
             }
         }
+        sc.close();
     }
 }
