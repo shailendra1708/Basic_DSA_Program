@@ -20,9 +20,9 @@ public class Armstrong_No {
         }
 
         if ( arm==temp) {
-            System.out.println(arm + " Yes it is an Armstrong Number");
+            System.out.println( " Yes it is an Armstrong Number");
         } else {
-            System.out.println(arm + " No it is  not an Armstrong Number");
+            System.out.println(" No it is  not an Armstrong Number");
 
         }
         scanner.close();
