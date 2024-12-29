@@ -22,9 +22,9 @@ public class Range_Prime {
                 }
             }
             if (count == 00) {
-                System.out.println(n + " It is Prime number");
+                System.out.println(n + "  It is Prime number");
             } else {
-                System.out.println(n + " It is not Prime number");
+                System.out.println(n + "  It is not Prime number");
 
             }
         }
